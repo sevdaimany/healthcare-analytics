@@ -1,0 +1,15 @@
+dbt_env/
+__pycache__/
+*.pyc
+target/
+dbt_packages/
+logs/
+profiles.yml
+*.p8
+*.pem
+rsa_key*
+.env
+airflow/keys/
+airflow/config/
+airflow/logs/
+airflow/plugins/
