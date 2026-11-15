@@ -13,3 +13,4 @@ airflow/keys/
 airflow/config/
 airflow/logs/
 airflow/plugins/
+.user.yml
