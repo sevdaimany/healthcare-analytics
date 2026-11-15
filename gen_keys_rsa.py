@@ -9,7 +9,7 @@ from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.asymmetric import rsa
 from cryptography.hazmat.backends import default_backend
 
-dbt_dir = ".dbt"
+dbt_dir = os.path.join(os.path.expanduser("~"), ".dbt")
 print("Creating dbt directory at:", dbt_dir)
 os.makedirs(dbt_dir, exist_ok=True)
 priv_path = os.path.join(dbt_dir, "rsa_key.p8")
