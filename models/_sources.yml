@@ -1,0 +1,12 @@
+version: 2
+sources:
+    - name: bronze
+      database: HEALTHCARE_DB
+      schema: RAW
+      tables:
+        - name: patient_admissions
+        - name: treatment_records
+        - name: insurance_claims
+        - name: seed_doctors
+        - name: seed_hospitals
+        - name: seed_insurers
