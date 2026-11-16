@@ -14,3 +14,10 @@ airflow/config/
 airflow/logs/
 airflow/plugins/
 .user.yml
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
